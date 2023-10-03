@@ -19,6 +19,6 @@ else:
     while pais2>=pais1:
         
         pais1+=pais1*(crescimento1/100)
-        pais2+=pais2*(crescimento2/100)
+        pais2+=pais2*(crescimento2/100)     
         ano=ano+1
     print(ano)

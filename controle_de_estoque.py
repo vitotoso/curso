@@ -35,7 +35,7 @@ while True:
         lucro=int(input("qual a taxa de lucro voce deseja inserir?: "))
         lucro.append(lucro)
         
-        frete=frete/quantidade
+        'frete=frete/quantidade
        
         imposto1=valor*(imposto1/100)
         imposto2=valor*(imposto2/100)
@@ -47,7 +47,6 @@ while True:
         valor_final=calculo_valor+frete
         
         valor_final.append(valor_final)
-
     
     elif a == 2:
 
